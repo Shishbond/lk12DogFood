@@ -1,0 +1,9 @@
+.hovered-text {
+    font-weight: bold;
+    transform: scale(1);
+    transition: transform 0.3s;
+}
+    
+.hovered-text:hover {
+    transform: scale(1.1);
+}

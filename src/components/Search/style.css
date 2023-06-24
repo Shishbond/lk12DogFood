@@ -1,0 +1,20 @@
+.search{
+    width: 450px;
+    height: 30px;
+    border-radius: 20px;
+    border: 1px solid #c29e00;
+    outline: none;
+    background-color: inherit;
+    padding: 4px 8px;
+    box-sizing: border-box;
+    font-size: 1rem;
+}
+.search:focus{
+    background-color: #fffaa0;
+    border: 1px solid #fffaa0;
+}
+@media (max-width: 768px){
+    .search{
+        width: 250px;
+    }
+}
