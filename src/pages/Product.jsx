@@ -250,7 +250,7 @@ const Product = () => {
 						<Form onSubmit={addReview}>
 							<Form.Group className="mb-3">
 								<Rating
-									isAnimationEnabled={true}
+									isAnimationEnabled={false}
 									onChange={handleRatingChange}
 									onChangeError={setShowRatingError}
 								/>
